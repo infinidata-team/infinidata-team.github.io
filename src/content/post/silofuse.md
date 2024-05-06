@@ -10,7 +10,7 @@ tags:
   - distributed-databases
   - data-privacy
 metadata:
-  canonical: https://astrowind.vercel.app/amalur
+  canonical: https://astrowind.vercel.app/silofuse
 ---
 
 

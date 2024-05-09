@@ -1,8 +1,8 @@
 ---
 publishDate: 2024-03-05T00:00:00Z
-title: Quantum Data Management
-excerpt: "Tutorial at 16-May-2024 16:30-18:40 -- ICDE Utrecht, Netherlands"
-# image: ~\assets\images\project\quantum_computing.png
+title: "Tutorial: Quantum Data Management"
+excerpt: "at 16-May-2024 16:30-18:40 -- ICDE Utrecht, Netherlands"
+image: ~/assets/images/project/quantum_computing.png
 category: quantum
 tags:
   - quantum-computing
@@ -13,11 +13,11 @@ metadata:
 
 <style>
 header {
-    background-image: url('src/assets/images/project/quantum_computing.png');
-    color: white;
+/*    background-image: url('src/assets/images/project/quantum_computing.png');*/
+    color: black;
 }
 header p {
-  color: white !important;
+  color: black !important;
 }
 
 table {

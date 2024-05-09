@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-05-09T00:00:00Z
 title: PhD Position Quantum Data Management
-# image: ~/assets/images/project/amalur-scope.png
+image: ~/assets/images/vacancy/quantum-computer.png
 category: vacancy
 tags:
   - quantum-computing

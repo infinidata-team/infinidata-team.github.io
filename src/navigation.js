@@ -32,6 +32,7 @@ export const headerData = {
             },
           ],
         },
+        {text: 'Vacancy', href: getPermalink('quantum-phd-position','post')}
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };

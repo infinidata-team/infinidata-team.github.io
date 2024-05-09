@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-03-05T00:00:00Z
 title: Quantum Data Management
-excerpt: "Tutorial at 16-May-2024 16:30-18:40 --ICDE Utrecht, Netherlands"
+excerpt: "Tutorial at 16-May-2024 16:30-18:40 -- ICDE Utrecht, Netherlands"
 # image: ~\assets\images\project\quantum_computing.png
 category: quantum
 tags:

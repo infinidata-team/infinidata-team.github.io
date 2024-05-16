@@ -53,13 +53,31 @@ You can find the <a href="https://arxiv.org/pdf/2403.02856" target="_blank"> pap
 
 ## Author List
 
+<!-- <div class="row">
+  <div class="col-sm-3">
+    <img src="/src/assets/images/people/Rihan_Hai-WIS.jpg" alt="Dr. Rihan Hai">
+  </div>
+  <div class="col-sm-9"> 
+    Rihan Hai is an assistant professor at TU Delft, Netherlands. Her research focuses on data management for machine learning, federated learning, and quantum data management. She has served as a PC member of VLDB, and ICDE, and a journal reviewer for TKDE, VLDBJ, SIGMOD Record, JMLR and TPDS
+  </div>
+</div>
+<div>
+  <div class="col-sm-3"><img src="/src/assets/images/icde-tutorial/shih_han_hung_photo.jpg" alt="Dr. Shih-Han Hung"></div>
+    <div class="col-sm-9">Shih-Han Hung is a postdoc at Academia Sinica. His research aims to better understand the power and the limit of quantum computers. Previously, he was a postdoc at the University of Texas at Austin. He received his Ph.D. from the University of Maryland.</div>
+</div>
+<div>
+  <div class="col-sm-3"><img src="/src/assets/images/icde-tutorial/sebastian_feld_photo.jpg", alt="Dr.Sebastian Feld"></div>
+  <div class="col-sm-9">Sebastian Feld is an assistant professor at Quantum & Computer Engineering department of TU Delft, Netherlands. He and his group are working on Quantum Machine Learning. Before, he was head of Quantum Applications and Research Laboratory (QAR-Lab) at LMU Munich.</div>
+</div> -->
+
+
 <table>
-  <colgroup>
+   <colgroup>
     <col style="width: 20%;">
     <col style="width: auto;">
   </colgroup>
   <tr>
-    <td><Image src="/src/assets/images/people/Rihan_Hai-WIS.jpg" alt="Dr. Rihan Hai"></td>
+    <td><Image src=(~/assets/images/project/transfergraph/framework.png) alt="Dr. Rihan Hai"></td>
     <td>Rihan Hai is an assistant professor at TU Delft, Netherlands. Her research focuses on data management for machine learning, federated learning, and quantum data management. She has served as a PC member of VLDB, and ICDE, and a journal reviewer for TKDE, VLDBJ, SIGMOD Record, JMLR and TPDS</td>
   </tr>
   <tr>
@@ -67,7 +85,7 @@ You can find the <a href="https://arxiv.org/pdf/2403.02856" target="_blank"> pap
     <td>Shih-Han Hung is a postdoc at Academia Sinica. His research aims to better understand the power and the limit of quantum computers. Previously, he was a postdoc at the University of Texas at Austin. He received his Ph.D. from the University of Maryland.</td>
   </tr>
   <tr>
-    <td><Image src="/src/assets/images/icde-tutorial/sebastian_feld_photo.jpg", alt="Dr. Sebastian Feld"></td>
+    <td><Image src="/src/assets/images/icde-tutorial/sebastian_feld_photo.jpg", alt="Dr.Sebastian Feld"></td>
     <td>Sebastian Feld is an assistant professor at Quantum & Computer Engineering department of TU Delft, Netherlands. He and his group are working on Quantum Machine Learning. Before, he was head of Quantum Applications and Research Laboratory (QAR-Lab) at LMU Munich.</td>
   </tr>
 </table>
@@ -88,8 +106,8 @@ You can find the <a href="https://arxiv.org/pdf/2403.02856" target="_blank"> pap
   <a href=""> <img src="src\assets\images\icde-tutorial\shih_han_hung_photo.jpg"> Shih-Han Hung</a> (Academia Sinica) <br>
   <a href="">  <img src = "src\assets\images\icde-tutorial\sebastian_feld_photo.jpg"> Sebastian Fund</a> (TU Delft) <br> -->
 
-
+<!-- 
 
 ## Citations
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FxPqktJvYg9sSEWvb7&noBootstrap=1&jsonp=1"></script>
-
+ -->

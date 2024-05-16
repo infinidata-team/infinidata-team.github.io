@@ -49,7 +49,7 @@ table col:first-child {
 ## Abstract
 Quantum computing has emerged as a transformative tool for future data management. Classical problems in database domains, including query optimization, data integration, and transaction management, have recently been addressed using quantum computing techniques. This tutorial aims to establish the theoretical foundation essential for enhancing methodologies and practical implementations in this line of research. Moreover, this tutorial takes a forward-looking approach by delving into recent strides in quantum internet technologies and the nonlocality theory. We aim to shed light on the uncharted territory of future data systems tailored for the quantum internet.
 
-You can find the <a href="./src/assets/files and documents/quantum data management tutorial.pdf" download> paper </a> here.
+You can find the <a href="https://arxiv.org/pdf/2403.02856" target="_blank"> paper </a> here.
 
 ## Author List
 
@@ -59,15 +59,15 @@ You can find the <a href="./src/assets/files and documents/quantum data manageme
     <col style="width: auto;">
   </colgroup>
   <tr>
-    <td><img src="./src/assets/images/people/Rihan_Hai-WIS.jpg"></td>
+    <td><Image src={import(/assets/images/people/Rihan_Hai-WIS.jpg)}></td>
     <td>Rihan Hai is an assistant professor at TU Delft, Netherlands. Her research focuses on data management for machine learning, federated learning, and quantum data management. She has served as a PC member of VLDB, and ICDE, and a journal reviewer for TKDE, VLDBJ, SIGMOD Record, JMLR and TPDS</td>
   </tr>
   <tr>
-    <td><img src="./src/assets/images/icde-tutorial/shih_han_hung_photo.jpg"></td>
+    <td><Image src="./src/assets/images/icde-tutorial/shih_han_hung_photo.jpg"></td>
     <td>Shih-Han Hung is a postdoc at Academia Sinica. His research aims to better understand the power and the limit of quantum computers. Previously, he was a postdoc at the University of Texas at Austin. He received his Ph.D. from the University of Maryland.</td>
   </tr>
   <tr>
-    <td><img src="./src/assets/images/icde-tutorial/sebastian_feld_photo.jpg"></td>
+    <td><Image src="./src/assets/images/icde-tutorial/sebastian_feld_photo.jpg"></td>
     <td>Sebastian Feld is an assistant professor at Quantum & Computer Engineering department of TU Delft, Netherlands. He and his group are working on Quantum Machine Learning. Before, he was head of Quantum Applications and Research Laboratory (QAR-Lab) at LMU Munich.</td>
   </tr>
 </table>

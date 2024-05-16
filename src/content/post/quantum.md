@@ -51,7 +51,7 @@ Quantum computing has emerged as a transformative tool for future data managemen
 
 You can find the <a href="https://arxiv.org/pdf/2403.02856" target="_blank"> paper </a> here.
 
-## Author List
+<!-- ## Author List -->
 
 <!-- <div class="row">
   <div class="col-sm-3">
@@ -71,24 +71,24 @@ You can find the <a href="https://arxiv.org/pdf/2403.02856" target="_blank"> pap
 </div> -->
 
 
-<table>
+<!-- <table>
    <colgroup>
     <col style="width: 20%;">
     <col style="width: auto;">
   </colgroup>
   <tr>
-    <td><Image src=(~/assets/images/project/transfergraph/framework.png) alt="Dr. Rihan Hai"></td>
+    <td><Image src="/src/assets/images/project/transfergraph/framework.png", alt="Dr. Rihan Hai"></td>
     <td>Rihan Hai is an assistant professor at TU Delft, Netherlands. Her research focuses on data management for machine learning, federated learning, and quantum data management. She has served as a PC member of VLDB, and ICDE, and a journal reviewer for TKDE, VLDBJ, SIGMOD Record, JMLR and TPDS</td>
   </tr>
   <tr>
-    <td><Image src="/src/assets/images/icde-tutorial/shih_han_hung_photo.jpg" alt="Dr. Shih-Han Hung"></td>
+    <td><Image src="/src/assets/images/icde-tutorial/shih_han_hung_photo.jpg", alt="Dr. Shih-Han Hung"></td>
     <td>Shih-Han Hung is a postdoc at Academia Sinica. His research aims to better understand the power and the limit of quantum computers. Previously, he was a postdoc at the University of Texas at Austin. He received his Ph.D. from the University of Maryland.</td>
   </tr>
   <tr>
     <td><Image src="/src/assets/images/icde-tutorial/sebastian_feld_photo.jpg", alt="Dr.Sebastian Feld"></td>
     <td>Sebastian Feld is an assistant professor at Quantum & Computer Engineering department of TU Delft, Netherlands. He and his group are working on Quantum Machine Learning. Before, he was head of Quantum Applications and Research Laboratory (QAR-Lab) at LMU Munich.</td>
   </tr>
-</table>
+</table> -->
 
 <!-- | | | -->
 <!-- |:--------------:|:---------:|

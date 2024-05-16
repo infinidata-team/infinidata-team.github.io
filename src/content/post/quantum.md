@@ -17,7 +17,7 @@ metadata:
     color: white;
 } */
 header p {
-  color: white !important;
+  color: black !important;
 }
 
 table {

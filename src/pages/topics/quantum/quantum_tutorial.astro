@@ -69,9 +69,12 @@ const metadata = {
       },
     ]} 
   />
-  <Fragment>
-    <iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FeMHYDCBf7JJ5Am6qu&noBootstrap=1"></iframe>
-  </Fragment>
+  
+  <slot>
+    <script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FeMHYDCBf7JJ5Am6qu&noBootstrap=1&jsonp=1"></script>
+    <!-- <iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FeMHYDCBf7JJ5Am6qu&noBootstrap=1&jsonp=1"></iframe> -->
+  </slot>
+  
 
 
 </Layout>

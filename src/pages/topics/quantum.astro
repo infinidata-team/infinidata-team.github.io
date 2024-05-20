@@ -17,8 +17,10 @@ import Brands from '~/components/widgets/Brands.astro';
 import YoutubeVideo from '~/components/common/YoutubeVideo.astro';
 
 const metadata = {
-  title: 'People',
+  title: '',
 };
+
+const { page } = Astro.props;
 ---
 
 <Layout metadata={metadata}>
@@ -48,14 +50,24 @@ const metadata = {
         description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
         image: { src: 'src\assets\images\people\Rihan_Hai-WIS.jpg', alt: 'AstroWind Hero Image' },
       },
+      // {
+      //   title: "quantum data management",
+      //   description: "Tutorial on Quantum Data Management given at ICDE 2024.",
+      //   image: {src: "~/assets/images/project/quantum_computing.png", alt:""},
+      //   pageurl:{href:'/quantum_tutorial'}
+      // },
+      {
+        callToAction:{
+            text:'Quantum Data Management',
+            href: 'quantum/quantum_tutorial',
+          },
+          title: 'Quantum Data Management Tutorial',
+        description:
+          'Data Management for Quantum Computing and Quantum Internet',
+          image: {src: "~/assets/images/project/quantum_computing.png", alt:""},
+          pageurl:{href:'quantum/quantum_tutorial'}
+      },
     ]}
-  />
-  <BlogHighlightedPosts
-      title="Find out more content in our Blog"
-      information={`The digestion of our on-going projects
-                  `}  
-      category='quantum'
-  />
-
+  >
 
 </Layout>

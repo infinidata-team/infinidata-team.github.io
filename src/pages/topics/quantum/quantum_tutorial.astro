@@ -1,0 +1,72 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogHighlightedPosts from '~/components/widgets/BlogHighlightedPosts.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+import Content from '~/components/widgets/Content.astro';
+
+
+import YoutubeVideo from '~/components/common/YoutubeVideo.astro';
+
+const metadata = {
+  title: 'Tutorial',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- People Widget ******************* -->
+  <Content 
+    title="Quantum Data Management"
+    items={[
+      {
+        title: "Abstract",
+        description:
+        "Quantum computing has emerged as a transformative tool for future data management. Classical problems in database domains, including query optimization, data integration, and transaction management, have recently been addressed using quantum computing techniques. This tutorial aims to establish the theoretical foundation essential for enhancing methodologies and practical implementations in this line of research. Moreover, this tutorial takes a forward-looking approach by delving into recent strides in quantum internet technologies and the nonlocality theory. We aim to shed light on the uncharted territory of future data systems tailored for the quantum internet. You can find the paper <a href='/Quantum Data Management.pdf' download='ICDE quantum computing tutorial 2024.pdf'>here</a>. \n The slides of the tutorial can be found <a href='/ICDE24 tutorial_final.pdf' download='ICDE quantum computing tutorial slides 2024.pdf'>here</a>",
+      },
+    ]}
+    image={{
+      src: "~/assets/images/project/quantum_computing.png",
+      alt: ""
+    }}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+  <Features2
+    title="Authors",
+    items={[
+      {
+        title: 'Rihan Hai',
+        description: "Rihan Hai is an assistant professor at TU Delft, Netherlands. Her research focuses on data management for machine learning, federated learning, and quantum data management. She has served as a PC member of VLDB, and ICDE, and a journal reviewer for TKDE, VLDBJ, SIGMOD Record, JMLR and TPDS",
+        image: { src: '~/assets/images/people/Rihan_Hai-WIS.jpg', alt: 'Dr. Rihan Hai' },
+      },
+      {
+        title: "Shih-Han Hung",
+        description: "Shih-Han Hung is a postdoc at Academia Sinica. His research aims to better understand the power and the limit of quantum computers. Previously, he was a postdoc at the University of Texas at Austin. He received his Ph.D. from the University of Maryland.",
+        image: {src: "~/assets/images/icde-tutorial/shih_han_hung_photo.jpg", alt: "Dr. Shih-Han Hung"},
+      }, 
+      {
+        title: "Sebastain Feld",
+        image: {src:"~/assets/images/icde-tutorial/sebastian_feld_photo.jpg", alt: "Dr.Sebastian Feld"},
+        description: "Sebastian Feld is an assistant professor at Quantum & Computer Engineering department of TU Delft, Netherlands. He and his group are working on Quantum Machine Learning. Before, he was head of Quantum Applications and Research Laboratory (QAR-Lab) at LMU Munich.",
+      },
+    ]} 
+  />
+  <Fragment slot="bg">
+    <iframe src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FeMHYDCBf7JJ5Am6qu&noBootstrap=1"></iframe>
+  </Fragment>
+
+
+</Layout>
+

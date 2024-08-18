@@ -1,4 +1,4 @@
-import { getHomePermalink, getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getHomePermalink, getPermalink, getBlogPermalink, getVacancyPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links:[
@@ -32,6 +32,18 @@ export const headerData = {
             },
           ],
         },
-        {text: 'Vacancy', href: getPermalink('quantum-phd-position','post')}
+        {text: 'Vacancy',
+          links : [
+          {
+            text: "PhD",
+            href: getPermalink('quantum-phd-position','post')
+          },
+          {
+            text: "PostDoc",
+            href: getPermalink('postdoc-position','post')
+          },
+            
+          ],
+}
   ],
 };

@@ -34,16 +34,19 @@ export const headerData = {
         },
         {text: 'Vacancy',
           links : [
-          {
-            text: "PhD",
-            href: getPermalink('quantum-phd-position','post')
-          },
-          {
-            text: "PostDoc",
-            href: getPermalink('postdoc-position','post')
-          },
+            {
+              text: "PhD",
+              href: getPermalink('quantum-phd-position','post')
+            },
+            {
+              text: "PostDoc",
+              href: getPermalink('postdoc-position','post')
+            },
             
           ],
-}
+        },
+        {text: 'Tutorials',
+          href: getPermalink("tutorials")
+        },
   ],
 };

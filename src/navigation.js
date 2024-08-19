@@ -46,7 +46,7 @@ export const headerData = {
           ],
         },
         {text: 'Tutorials',
-          href: getPermalink("tutorials")
+          href: getPermalink("tutorial", "category")
         },
   ],
 };

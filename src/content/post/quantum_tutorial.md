@@ -1,6 +1,6 @@
 ---
 publishDate: 2024-08-18T00:00:00Z
-title: Data management for Quantum Computing
+title: Data management for Quantum Computing 25/09/2024
 excerpt: Tutorial on Quantum Data given by Dr. Rihan Hai
 image: ~/assets/images/project/quantum_data_management.jpeg
 category: tutorial
@@ -8,11 +8,12 @@ tags:
   - Data Management
   - tutorial
   - Quantum Data
-metadata:
-  canonical: https://astrowind.vercel.app/transfergraph
+# metadata:
+#   canonical: https://astrowind.vercel.app/transfergraph
 ---
 
 ## Abstract
+
 Quantum computing has emerged as a promising tool for transforming the future paradigm of data management.
 Classical problems in database domains, including query optimization, data integration, and transaction management, have recently been addressed using techniques from quantum computing. 
 This talk will provide a comprehensive overview of current research efforts leveraging quantum technologies to address these classical database issues. 

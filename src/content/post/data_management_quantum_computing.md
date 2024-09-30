@@ -1,15 +1,15 @@
 ---
 publishDate: 2024-08-19
 title: Quantum Data Management in the NISQ Era
-excerpt: Model Selection with Model Zoo via Grap Learning
+excerpt: Tutorial on the usage of quantum computatiosn for data management in the noisy intermediate-scale quantum era
 image: ~/assets/images/project/quantum_data_management.jpeg
 category: keynote
 tags:
   - quantum computing
   - data management
   - VLDB
-metadata:
-  canonical: https://astrowind.vercel.app/transfergraph
+# metadata:
+#   canonical: https://astrowind.vercel.app/transfergraph
 ---
 
 ## Bio

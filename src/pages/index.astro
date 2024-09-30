@@ -13,6 +13,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'InfiniData Team',
@@ -156,6 +157,29 @@ const metadata = {
       columns={1}
       items={[
         {
+          title: "Towards QuantumData Structures for Enhanced Database Performance",
+          presurl:{
+            href:"files/vldb24_Phdworkshop.pptx"
+          },
+          image:{
+            src: 'images/vldb_2024_icon.png',
+            alt:"VLDB 2024"
+          },
+          description: 'Tim Littau, Ziyu Li, Rihan Hai <br \>',
+
+        },
+        {
+          title: "On Efficient ML Model Training in Data Lakes",
+          presurl:{
+            href:"files/vldb24_Phdworkshop.pptx"
+          },
+          image:{
+            src: 'images/vldb_2024_icon.png',
+            alt: "VLDB 2024"
+          },
+          description: "Wenbo Sun",
+        },
+        {
           callToAction:{
             text:'Quantum Data Management: From Theory to Opportunities',
             href: 'topics/quantum/quantum_tutorial',
@@ -163,6 +187,11 @@ const metadata = {
           paperurl:{
             href:'https://arxiv.org/pdf/2403.02856',
           },
+
+          // Insert presentation files here
+          // presurl: {
+          //   href: "/files/Quantum Data Management.pdf"
+          // },
           image:{
             src: '~/assets/images/icde-2024.png',
             alt: 'Colorful Image',
@@ -177,6 +206,9 @@ const metadata = {
           paperurl:{
             href: 'https://arxiv.org/pdf/2404.03988',
           },
+          // presurl: {
+          //   href: "/files/Quantum Data Management.pdf"
+          // },
           image:{
             src: '~/assets/images/icde-2024.png',
             alt: 'Colorful Image',
@@ -191,6 +223,9 @@ const metadata = {
           paperurl: {
             href: 'https://ieeexplore.ieee.org/abstract/document/10412203',
           },
+          // presurl: {
+          //   href: "/files/Quantum Data Management.pdf"
+          // },
           image:{
             src: '~/assets/images/tkde.png',
             alt: 'Colorful Image',
@@ -205,6 +240,9 @@ const metadata = {
           paperurl: {
             href: 'https://arxiv.org/abs/2404.03299',
           },
+          presurl: {
+            href: "/files/SiloFuse.pptx"
+          },
           image:{
             src: '~/assets/images/icde-2024.png',
             alt: 'Colorful Image',
@@ -218,7 +256,7 @@ const metadata = {
       </Fragment>
     </FeaturesCenter>
 
-    <FeaturesCenter
+    <!-- <FeaturesCenter
         title="Presentations"
         columns={1}
         items={
@@ -246,7 +284,7 @@ const metadata = {
       <Fragment slot="bg">
         <div class="absolute inset-0 bg-whitte-50 dark:bg-transparent"></div>
       </Fragment>
-    </FeaturesCenter>
+    </FeaturesCenter> -->
 
 
   <!-- HighlightedPosts Widget ******* -->

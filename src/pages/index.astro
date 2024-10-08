@@ -152,15 +152,15 @@ const metadata = {
 
 
   <FeaturesCenter
-  id="Keynotes"
-  title="keynotes"
+  id="TnT"
+  title="Talks and Tutorials"
   columns={1}
   items={
     [
       {
         // title: "Quantum Data Management in the NISQ Era",
         callToAction:{
-            text:"Quantum Data Management in the NISQ Era",
+            text:"QDSM: Quantum Data Management in the NISQ Era",
             href: 'topics/data_management_quantum_computing',
           },
         presurl:{
@@ -175,7 +175,26 @@ const metadata = {
         },
         description: 'Rihan Hai',
 
-    }
+    },
+    {
+          callToAction:{
+            text:'Quantum Data Management: From Theory to Opportunities',
+            href: 'topics/quantum/quantum_tutorial',
+          },
+          paperurl:{
+            href:'https://arxiv.org/pdf/2403.02856',
+          },
+
+          // Insert presentation files here
+          // presurl: {
+          //   href: "/files/Quantum Data Management.pdf"
+          // },
+          image:{
+            src: '~/assets/images/icde-2024.png',
+            alt: 'Colorful Image',
+          },
+          description: '<strong> Rihan Hai </strong>, Shih-Han Hung, Sebastian Feld <br \>',
+        },
   ]
   }
   >
@@ -188,7 +207,7 @@ const metadata = {
       columns={1}
       items={[
         {
-          title: "Towards QuantumData Structures for Enhanced Database Performance",
+          title: "QDSM: Towards Quantum Data Structures for Enhanced Database Performance",
           presurl:{
             href:"files/vldb24_Phdworkshop.pptx"
           },
@@ -210,25 +229,7 @@ const metadata = {
           },
           description: "Wenbo Sun",
         },
-        {
-          callToAction:{
-            text:'Quantum Data Management: From Theory to Opportunities',
-            href: 'topics/quantum/quantum_tutorial',
-          },
-          paperurl:{
-            href:'https://arxiv.org/pdf/2403.02856',
-          },
-
-          // Insert presentation files here
-          // presurl: {
-          //   href: "/files/Quantum Data Management.pdf"
-          // },
-          image:{
-            src: '~/assets/images/icde-2024.png',
-            alt: 'Colorful Image',
-          },
-          description: '<strong> Rihan Hai </strong>, Shih-Han Hung, Sebastian Feld <br \>',
-        },
+        
         {
           callToAction:{
             text:'Model Selection with Model Zoo via Graph Learning',

@@ -13,7 +13,9 @@ tags:
 #   canonical: https://astrowind.vercel.app/transfergraph
 ---
 
-<!-- The download link <a href="www.google.com">testing </a> -->
+The paper is currently available on <a href="https://arxiv.org/pdf/2409.14111">arxiv</a>.
+
+The presentation from the keynote can be found <a href="files/QDSM24keynote_online.pdf">here</a>.
 
 ## Bio
 Rihan Hai is an assistant professor at Delft University of Technology (TU Delft), Netherlands. Before joining TU Delft, she received her Ph.D. degree from RWTH Aachen University, Germany. She received her master's and bachelor's degrees from Tsinghua University, China. Her research focuses on data lakes, data privacy, and quantum data management.
@@ -28,6 +30,3 @@ We will discuss the data management and engineering challenges posed by these ne
 By bridging the gap between classical database problems and the emerging needs of quantum computing, this talk aims to shed light on the synergies and potential advancements at this interdisciplinary frontier.
 
 
-The paper is currently available on <a href="https://arxiv.org/pdf/2409.14111">arxiv</a>.
-
-The presentation from the keynote can be found <a href="files/QDSM24keynote_online.pdf">here</a>.

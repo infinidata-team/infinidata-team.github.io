@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-08-19
 title: Quantum Data Management in the NISQ Era
-excerpt: Keynote on the usage of quantum computatiosn for data management in the noisy intermediate-scale quantum era
+excerpt: Keynote of Quantum Data Science and Management (QDSM) workshop colocated with VLDB2024
 # icon: tabler:presentation
 image: ~/assets/images/project/quantum_data_management.jpeg
 category: keynote

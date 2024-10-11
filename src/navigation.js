@@ -3,12 +3,12 @@ import { getHomePermalink, getPermalink, getBlogPermalink, getVacancyPermalink, 
 export const headerData = {
   links:[
         { text: 'Home', href: getPermalink() },
-        { text: 'About', href: getPermalink('#about') },
-        { text: "3Ps", links: [
+        // { text: 'About', href: getPermalink('#about') },
+        { text: "About the group", links: [
           { text: 'People', href: getPermalink('people') },
-          { text: 'Publications', href: getPermalink('#publications') },
           { text: 'Projects', href: getPermalink('#projects') },``
         ]},
+        { text: 'Publications', href: getPermalink('#publications') },
         {
           text: 'Blog',
           links: [
@@ -47,7 +47,7 @@ export const headerData = {
           ],
         },
         {
-          text: "Educational Content",
+          text: "Talks and Tutorials",
           links: [
             {
               text: 'Tutorials',

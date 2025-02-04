@@ -4,35 +4,11 @@ export const headerData = {
   links:[
         { text: 'Home', href: getPermalink() },
         // { text: "About the group", links: [
-        //   { text: 'People', href: getPermalink('people') },
+        { text: 'People', href: getPermalink('people') },
         //   { text: 'Projects', href: getPermalink('#projects') },``
         // ]},
         { text: 'Publications', href: getPermalink('publications') },
-        // {
-        //   text: 'Blog',
-        //   links: [
-        //     {
-        //       text: 'Blog List',
-        //       href: getBlogPermalink(),
-        //     },
-        //     {
-        //       text: 'About our team',
-        //       href: getPermalink('amalur', 'post'),
-        //     },
-        //     {
-        //       text: 'Model Lake',
-        //       href: getPermalink('model-lake', 'category'),
-        //     },
-        //     {
-        //       text: 'Privacy',
-        //       href: getPermalink('federated-learning', 'category'),
-        //     },
-        //     {
-        //       text: 'Quantum',
-        //       href: '/topics/quantum',
-        //     },
-        //   ],
-        // },
+      
         {text:"Blogs", href: getBlogPermalink()},
         // {text: 'Vacancy',
         //   links : [
@@ -46,9 +22,7 @@ export const headerData = {
         //     },
         //   ],
         // },
-        {
-          text: "Talks and Tutorials",
-          href: getPermalink("tutorials")
+        { text: "Talks and Tutorials", href: getPermalink("tutorials")
         }
         
   ],

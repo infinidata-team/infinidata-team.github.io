@@ -70,6 +70,8 @@ export const getHomePermalink = (): string => getPermalink('/');
 /** */
 export const getBlogPermalink = (): string => getPermalink(BLOG_BASE);
 
+export const getPublicationlink = (): string => getPermalink("/publications")
+
 // export const getVacancyPermalink = (): string => getPermalink(TAG_BASE.);
 
 

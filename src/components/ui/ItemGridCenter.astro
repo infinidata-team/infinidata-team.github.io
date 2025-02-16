@@ -66,30 +66,6 @@ const {
               {title && (<h3 class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</h3>)}
 
 
-              {/* {callToAction && paperurl && (
-                <h3 style="display:inline;"
-                  class={twMerge(
-                    `${title || description ? 'mt-3' : ''}`,
-                    actionClass,
-                    itemClasses?.actionClass
-                    )
-                  }
-                  variant="link" {...callToAction} 
-                >
-                </h3>
-
-                <span>
-                  <Icon
-                      name="tabler:article"
-                      class={twMerge(defaultIconClass)}
-                      variant="link" {...paperurl}
-                    ></Icon>
-                  </span>
-
-              )}
-               */}
-
-
               {callToAction && (
                 <h3 style="display:inline"
                   class={twMerge(
@@ -101,33 +77,24 @@ const {
                   <Button variant="link" {...callToAction} />
                 </h3>
                 )
-                }
+              }
                 
   
               <div class={twMerge('flex flex-row ', actionClass, itemClasses?.panel)}>
               {paperurl && (
-                <p>The paper: </p><Button variant="link" {...paperurl} >
-                    <Icon
-                        name="tabler:article"
-                        class={twMerge('w-7 h-7 mr-2 rtl:mr-0 rtl:ml-2', defaultIconClass, itemClasses?.icon)}
-                      />
-                    </Button>
+                <Button variant="link" {...paperurl} >
+                Paper;
+                </Button>
               )}
               {presurl && (
-                <p>The presentation: </p><Button variant="link" {...presurl} >
-                    <Icon
-                        name="tabler:presentation"
-                        class={twMerge('w-7 h-7 mr-2 rtl:mr-0 rtl:ml-2', defaultIconClass, itemClasses?.icon)}
-                      />
-                    </Button>
+                <Button variant="link" {...presurl} >
+                Presentation;
+                </Button>
               )}
               {blogurl && (
                 <Button variant="link" {...blogurl} >
-                    <Icon
-                        name="tabler:book"
-                        class={twMerge('w-7 h-7 mr-2 rtl:mr-0 rtl:ml-2', defaultIconClass, itemClasses?.icon)}
-                      />
-                    </Button>
+                Blog ;
+                </Button>
               )}
               </div>
               {description && (

@@ -10,20 +10,9 @@ export const headerData = {
         { text: 'Publications', href: getPermalink('publications') },
       
         {text:"Blogs", href: getBlogPermalink()},
-        // {text: 'Vacancy',
-        //   links : [
-        //     {
-        //       text: "PhD",
-        //       href: getPermalink('quantum-phd-position','post')
-        //     },
-        //     {
-        //       text: "PostDoc",
-        //       href: getPermalink('postdoc-position','post')
-        //     },
-        //   ],
-        // },
-        { text: "Talks and Tutorials", href: getPermalink("tutorials")
-        }
+        { text: "Talks and Tutorials", href: getPermalink("tutorials")},
+        // {text: 'Vacancies and Projects', href: getPermalink("Vacancies") },
+
         
   ],
 };

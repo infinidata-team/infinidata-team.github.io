@@ -22,22 +22,37 @@ const metadata = {
 
 <Layout metadata={metadata}> 
 
-  <!-- <FeaturesCenter
+  <FeaturesCenter
     id="FTT"
-    title="Upcoming Talks and Tutorials"
+    title="Talks and Tutorials - 2025"
     columns={1}
     items={
       [
-        //  Upcoming Talks add to this list 
+       {
+          // title: "Quantum Data Management in the NISQ Era",
+          callToAction:{
+              text:"Databases as AI Runtimes",
+              href: 'https://data-drivenai.github.io/2025/',
+            },          
+          presurl:{
+            href:"/files/DB as AI runtime_DATAI25.pdf"
+          },
+          image:{
+            src: 'images/vldb_2025_icon.png',
+            alt:"VLDB 2024"
+          },
+          description: 'Rihan Hai',
+
+      },
         
       ]
     }
   >
-  </FeaturesCenter>   -->
+  </FeaturesCenter>  
 
   <FeaturesCenter
     id="TnT"
-    title="Previous Talks and Tutorials"
+    title="Talks and Tutorials - 2024"
     columns={1}
     items={
       [

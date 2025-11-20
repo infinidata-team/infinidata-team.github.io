@@ -116,7 +116,7 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
+<!--  Uncomment for federated learning section
   <Content
     isReversed
     isAfterContent
@@ -147,8 +147,38 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
+  <Content
+    isReversed
+    isAfterContent
+    title="Quantum Data Management"
+    items={[
+      {
+        title: 'Objective',
+        description:
+          'Our research at the intersection of quantum computing, data management, and AI — unlocking unprecedented computational capabilities.',
+      },
+      {
+        title: 'Approach',
+        description:
+          'We approach Quantum Data Management from two directions: Classical Simulation of Quantum Computation using Data Management techniques and the prototyping of Quantum Data Systems. Contributing valuable research and creating open source tools for the community to use.'      },
+      {
+        title: 'Outcome',
+        description:
+        'This will drive research in the current NISQ era while building a solid foundation for future applications of quantum computing in data management and AI'
+      },
+    ]}
+    image={{
+      src: "/images/quantumSimulation.png",
+      alt: 'Astronauts Image',
+    }}
+  >
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   
     

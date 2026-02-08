@@ -12,6 +12,7 @@ export const headerData = {
         {text:"Blogs", href: getBlogPermalink()},
         { text: "Talks and Tutorials", href: getPermalink("tutorials")},
         // {text: 'Vacancies and Projects', href: getPermalink("Vacancies") },
+        { text: "Seminars", href: getPermalink("seminars")},
 
         
   ],

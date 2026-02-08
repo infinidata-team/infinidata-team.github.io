@@ -33,7 +33,7 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, image, icon, paperurl, presurl, blogurl, pageurl, callToAction, classes: itemClasses = {} }) => (
+      {items.map(({ title, description, image, icon, paperurl, presurl, blogurl, meeturl, recurl, pageurl, callToAction, classes: itemClasses = {} }) => (
         <div>
           <div class={twMerge('flex flex-row max-w-md', panelClass, itemClasses?.panel)}>
              <div class="flex md:basis-1/7">
@@ -58,7 +58,7 @@ const {
                {image && (
                 <Image
                     class="h-90 w-full rounded-lg bg-white-500 shadow-lg"
-                    width=99%
+                    width="99%"
                     {...(image as any)}
                   />
                 )}
@@ -93,6 +93,26 @@ const {
                       />
                     </Button>
               )}
+              {
+                meeturl && (
+                  <Button variant="link" {...meeturl} >
+                      <Icon
+                          name="tabler:video"
+                          class={twMerge('w-7 h-7 mr-2 rtl:mr-0 rtl:ml-2', defaultIconClass, itemClasses?.icon)}
+                        />
+                      </Button>
+                )
+              }
+              {
+                recurl && (
+                  <Button variant="link" {...recurl} >
+                      <Icon
+                          name="tabler:presentation"
+                          class={twMerge('w-7 h-7 mr-2 rtl:mr-0 rtl:ml-2', defaultIconClass, itemClasses?.icon)}
+                        />
+                      </Button>
+                )
+              }
               </div>
               {description && (
                 <p

@@ -132,6 +132,12 @@ export interface Item {
   description?: string;
   icon?: string;
   classes?: Record<string, string>;
+  paperurl?: any;      // Add this
+  presurl?: any;       // Add this
+  blogurl?: any;       // Add this
+  meeturl?: any;    // Add this
+  recurl?: any;  // Add this
+  pageurl?: any;  // Add this
   callToAction?: CallToAction;
   image?: Image;
 }

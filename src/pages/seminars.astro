@@ -1,0 +1,52 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+import FeaturesCenter from '~/components/widgets/FeaturesCenter.astro';
+
+
+const metadata = {
+  title: 'Tutorials',
+};
+---
+
+<Layout metadata={metadata}> 
+
+  <FeaturesCenter
+    id="FTT"
+    title="2026"
+    columns={1}
+    items={
+      [
+       {
+          callToAction:{
+              text:"Convergence laws for real-valued logics and the analysis of GNNs ",
+            // maybe add recoridng link here
+              //   href: 'https://data-drivenai.github.io/2025/',
+        },          
+        // presurl: {
+        //     href:'google.com',
+        // },
+        meeturl: {
+            href: "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fteams.microsoft.com%2Fmeet%2F32421204305194%3Fp%3DzyO4Qa6pzQWolr3qkq&data=05%7C02%7CD.Zhan%40tudelft.nl%7C4443a708575a461b3db508de65655c91%7C096e524d692940308cd38ab42de0887b%7C0%7C0%7C639059683177864136%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=tH%2FpueEyvqfyYhF4KLFZtiHFJXbvjXxrvqGHjipgO60%3D&reserved=0",
+        },
+        description: 'Michael Benedikt',
+
+      },
+        
+      ]
+    }
+  >
+  </FeaturesCenter>  
+  
+</Layout>
